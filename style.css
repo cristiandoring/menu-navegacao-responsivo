@@ -57,3 +57,8 @@ body{
     border-radius: 3px;
     transition: 0.5s;
 }
+
+.mobile-menu{
+    display: none;
+
+}
