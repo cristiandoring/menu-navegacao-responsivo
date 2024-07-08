@@ -62,3 +62,25 @@ body{
     display: none;
 
 }
+
+.hamburguer, .fechar{
+    font-size: 24px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 768px){
+
+    .html{
+        font-size: 12px;
+    }
+    .nav-links-desktop{
+        display: none;
+    }   
+
+    .hamburguer{
+        display: block;
+    }
+
+}
