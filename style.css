@@ -107,6 +107,10 @@ body{
     display: block;
     align-self: end;
 }
+
+.flex{
+    display: flex;
+}
 @media (max-width: 768px){
 
     .html{
