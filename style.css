@@ -59,7 +59,7 @@ body{
 }
 
 .mobile-menu{
-    display: flex;
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -85,6 +85,7 @@ body{
 }
 
 .nav-links-mobile li{
+
     border-bottom: 1px solid #787272;
     padding-bottom: 1.2rem;
 
@@ -97,6 +98,7 @@ body{
     color: white;
     cursor: pointer;
     background: none;
+    display: none;
 }
 
 .fechar{
