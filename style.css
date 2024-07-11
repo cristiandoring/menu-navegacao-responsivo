@@ -51,7 +51,7 @@ body{
 
 .nav-links-desktop a:hover{
 
-    color: rgb(8, 140, 8);
+    color: #333;
     background-color: white;
     padding: 5px 10px;
     border-radius: 3px;
