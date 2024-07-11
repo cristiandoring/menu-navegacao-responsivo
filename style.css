@@ -111,6 +111,43 @@ body{
 .flex{
     display: flex;
 }
+
+.imagem-fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: calc(100%-70px);
+}
+
+.imagem-fundo h1{
+    color: white;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2PX 1PX 1PX black;
+    padding: 2rem 0;
+}
+
+.imagem-fundo button{
+    background-color: #333;
+    border: 2px solid #787272;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.imagem-fundo button:hover{
+    background-color: white;
+    color: #333;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
 @media (max-width: 768px){
 
     .html{
